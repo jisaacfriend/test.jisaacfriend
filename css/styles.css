@@ -1,0 +1,80 @@
+body {
+  font-size: 16px;
+  font-family: 'Titillium', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Amaranth', sans-serif;
+  font-weight: bold;
+  letter-spacing: .25rem;
+  text-transform: uppercase;
+}
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1rem; }
+.hero {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url('../images/bamboo_forest2.jpg') top center no-repeat fixed;
+  background-size: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(6,16,7,.6) url('../images/overlay.png') repeat;
+}
+.site-heading {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -106px;
+  text-align: center;
+  text-shadow: 3px 3px 1px #222;
+  color: #fefefe;
+}
+.site-name {
+  margin: 0 0 15px 0;
+  font-size: 4rem;
+}
+.scroll-down {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+  height: 80px;
+  width: 110px;
+  background-color: #333;
+  text-align: center;
+  border-radius: 2px 2px 0 0;
+}
+.scroll-down i {
+  font-size: 2.5rem;
+  line-height: 80px;
+  color: #fefefe;
+}
+.white-background {
+  background-color: #fefefe;
+}
+#about-me--info {
+  padding: 40px 180px;
+}
+.section-heading {
+  margin: 1.5rem 0;
+  font-size: 3rem;
+  text-align: center;
+  color: #2887c8;
+}
+.section-tagline {
+  text-align: center;
+  color: #777;
+}
