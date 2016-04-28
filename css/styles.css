@@ -20,7 +20,7 @@ h3 { font-size: 1rem; }
   position: relative;
   height: 100vh;
   width: 100%;
-  background: url('../images/bamboo_forest2.jpg') top center no-repeat fixed;
+  background: url('../images/bamboo-forest-muted.jpg') top center no-repeat fixed;
   background-size: cover;
 }
 
@@ -45,6 +45,13 @@ h3 { font-size: 1rem; }
 .site-name {
   margin: 0 0 15px 0;
   font-size: 4rem;
+}
+.header-watermark {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	left: 0;
+	width: 100%;
 }
 .scroll-down {
   display: block;
@@ -77,4 +84,25 @@ h3 { font-size: 1rem; }
 .section-tagline {
   text-align: center;
   color: #777;
+}
+
+@media screen and (max-width: 640px) {
+	.site-name {
+		font-size: 1.5em;
+	}
+	.site-tagline {
+		font-size: 1em;
+	}
+	.site-heading {
+		margin-top: -38px;
+	}
+	.header-watermark {
+		top: 100%;
+	}
+}
+
+@media screen and (min-width: 641px) and (max-width: 1280px) {
+	.header-watermark {
+		top: 70%;
+	}
 }
